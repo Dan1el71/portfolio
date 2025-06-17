@@ -29,7 +29,7 @@ i18n
         if (lng === 'en-US') return 'en'
         return 'es'
       },
-      order: ['htmlTag', 'navigator', 'localStorage', 'cookie'],
+      order: ['navigator', 'htmlTag', 'localStorage', 'cookie'],
     },
   })
 
